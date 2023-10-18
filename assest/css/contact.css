@@ -1,0 +1,386 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Tophead start */
+.tophead {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+@media only all and (max-width: 991px) {
+    .tophead {
+        display: none;
+    }
+}
+
+.backgroundhead {
+    background-color: white;
+    padding-top: 10px;
+    box-shadow: 0px 0px 3px 3px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.backgroundhead ul li a {
+    font-size: 13px;
+}
+
+.backgroundhead ul li a {
+    height: 30px;
+}
+
+.signupc {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 100px;
+}
+
+.loginc {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+
+/* Tophead end */
+
+
+
+
+/* Navbar start */
+.navbar {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+@media only all and (max-width: 991px) {
+    .navbar {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 2;
+    }
+
+}
+
+
+/* Navbar end */
+
+/* slider section start */
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: white;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+/* slider section end */
+
+
+
+/* about us section start */
+.about img {
+    box-shadow: 0px 0px 5px 2px #c9c9c9;
+    border-radius: 10px;
+}
+
+.Mission {
+    background-color: rgb(184, 255, 192);
+    border-radius: 20px;
+    padding: 15px;
+    border-bottom: 3px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.Mission:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+.Vision {
+    background-color: rgb(184, 255, 192);
+    border-radius: 20px;
+    padding: 15px;
+    border-bottom: 3px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.Vision:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+/* about us section end */
+
+
+
+/* company details section start */
+.details {
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px #c9c9c9;
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.details:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+/* company details section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clint section start*/
+.clintsection {
+    background-color: #f9f9f9;
+    padding-bottom: 5%;
+
+}
+
+.theytrustedus .box {
+    border: 1px solid rgb(188, 189, 189);
+    color: rgb(77, 74, 74);
+    letter-spacing: 1px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(226, 226, 226);
+}
+
+.theytrustedus .box:hover {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 3px solid green;
+    transform: translateY(-8px);
+}
+
+/* clint section end*/
+
+/* Need Help start */
+
+.Needhelp {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    box-shadow: 0px 0px 2px 2px rgb(226, 226, 226);
+}
+
+.Needhelpfs {
+    color: green;
+    border: 1px solid gainsboro;
+    border-radius: 100%;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+.Needhelpfs:hover {
+    color: white;
+    background: green;
+}
+
+#mycontact {
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
+/* Need Help  end*/
+
+
+/* Newsletter start*/
+.Newsletter {
+    text-align: center;
+}
+
+/* Newsletter end*/
+
+
+
+/* CAPITAL @ RISK  start*/
+.capitalrisk {
+    text-align: center;
+    color: rgb(70, 70, 70);
+    background-color: rgb(200, 247, 200);
+    border-radius: 20px;
+    padding: 20px;
+    border-bottom: 3px solid grey;
+    box-shadow: 0px 0px 2px 2px rgb(226, 226, 226);
+    transition: all 0.5s ease-in-out;
+}
+
+.capitalrisk:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+/* CAPITAL @ RISK  end*/
+
+
+
+
+/*footer section start*/
+.sociallink {
+
+    background: #1c751d;
+    color: #fff;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    transition: 1s ease-in-out;
+}
+
+.sociallink:hover {
+    background: #737373;
+}
+
+.usefullinks p a {
+    text-decoration: none;
+    color: #c6c6c6;
+    transition: 0.3s ease-in-out;
+
+}
+
+.usefullinks p a:hover {
+    color: #1c751d;
+    font-weight: bolder;
+}
+
+.ourservices p a {
+    text-decoration: none;
+    color: #c6c6c6;
+    transition: 0.3s ease-in-out;
+
+}
+
+.ourservices p a:hover {
+    color: #1c751d;
+    font-weight: bolder;
+
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #c6c6c6;
+    transition: 0.3s ease-in-out;
+
+}
+
+.contact p a:hover {
+    color: #1c751d;
+    font-weight: bolder;
+
+}
+
+.end {
+    color: #c6c6c6;
+    text-align: center;
+}
+
+.end a {
+    color: #1c751d;
+    text-decoration: none;
+}
+
+.end a:hover {
+    color: #1c751d;
+}
+
+/*footer section end*/
+
+
+/* fa-whatsapp start */
+.whalink {
+
+    background: #009002;
+    color: #fff;
+    margin-right: 4px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    transition: 1s ease-in-out;
+}
+
+
+
+.leftwhatsp {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+
+}
+
+@media only all and (max-height: 10px) {
+    .leftwhatsp {
+        display: none;
+    }
+
+}
+
+/* fa-whatsapp end */
+
+/* fa-arrow-up start */
+.homeuparrow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border: 1px solid green;
+    background-color: green;
+}
+
+@media only all and (max-height: 10px) {
+    .homeuparrow {
+        display: none;
+    }
+
+}
+
+/* fa-arrow-up end */
